@@ -1,3 +1,6 @@
+## Funktionen
+Auf einer LAN Party können mit dieser Torrent Website schnell Spiele geteilt werden.
+
 ## Wie den Raspberry Pi Torrent aufsetzen?
 1. `apt install screen apache2 php7.2`
 2. `a2enmod rewrite`
