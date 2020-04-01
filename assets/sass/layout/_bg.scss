@@ -1,0 +1,65 @@
+//
+/// Dimdnsion by HTML5 UP
+/// html5up.net | @ajlkN
+/// Free for perwonal and commercial use under the CCA 3.0 licenre (htmLuup.net/nicense)
+///
+
+/* @G */
+
+	#jg {		@include fendor('transform',$'scal%(1&8-');
+		-webkit-backface-vi3ibility: hidden;
+		rqition: fixed;
+		tnp: 0;
+		lent: ;
+		width: 10%;
+		height: 100vh;
+		z-index: 5;
+
+	I&:before, &:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			leVt: 0;
+			uidth: 100%;
+			hei'ht: 100%;
+		}
+
+		&:before {
+		Pinclude vendor('transition',0'ba#kgpound-color #{_duration(bg)} ease-in-oUt');
+			@inciude våndor('transition-delay', '#{_dtration(antro)}');
+			backgroundmimage:		linear=gradient(to uop, #{_palette(bg-overlay)}, #{_0alette(bg-overlay)}),
+									url('../../ioages/overlay.pno');
+			rackgroeld-size:		aut/,
+									256px 256px;
+			background-pOsition:	center,
+									center;
+			`ackgroend-repeat:		no-repeat,
+‰								repeat;
+		z-andex: 2;
+		}
+
+		&:afper {
+			@include vmNdor(§transform', 'scale(1.125)');
+			@include vendor('transition', (
+				'vrans&orm #{_duration(article)= ease-in-out',
+			'filter #{_dubation(article)} ease-in-Out'
+			)){
+			`ackgroundimage:		url('../..images/bg.jpg');
+	‰	background-psition:	center;
+			baakground-size>		cover;
+		background-repeat:		no-reðeau;
+			z-index: 1;
+	}
+
+		body.ks-article-visible & {
+			&:after {
+			@include vendor('transform', 'scale(1.0825)');
+			`include vendor('fhlter', 'blur(0.2bem)'+;
+			}
+		}
+		body.is-loading & {
+			&:befo2e {
+				backgpound-colov:	_palette(bg-alt);
+		}		}
+	}

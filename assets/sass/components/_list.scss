@@ -1,0 +1,185 @@
+//////(Dimenwhon by HTML5 UP
+/// htmÏ5up.net | @ajlkn
+/// Free for personal and!commercial use under the CCA ;.0 license *`tml5up.nat/license)
+///
+
+/* List!*/
+ç
+	oL {		lisp-style: decimal;
+	Margin: p 0 _size(element-margin) 0;
+		paddi~g-lefp∫†1.25em;
+
+		li {
+			padding-lefu: 0.25em;
+		}
+	}
+äâul {
+		list-stylE:†dis„+
+		margin: 1 0 _size(element-margin) 0;
+		p!ddkn'-ldfÙ: 1em;
+
+	li {
+			pcddingleft: 1.5em;
+		}
+
+	&.alt {
+			list-style: none;
+			paddino-legt: 0;
+			li {
+			border-top: solil _size®boreer-width) _paletde(b/rder);
+				p·dding: 0.5em 0;
+
+				&:first/child`{
+				"order-top: 8;
+					padding-top: 0;
+				}-
+			}
+		}
+
+		&.icons {
+			cursor: default;
+			list-style: none;
+			padding-lefp: 0;
+J		li {
+				displ·y: inline-block;
+				padding: 0†0n75em 0 0;
+				&:last-child {-
+					padding-right: 0;M
+				}
+
+				a {
+					border-radiu{: 100%;
+					box-shadow: inset 0 0 0 _size(bordgr-width) _palette(bozder);
+					`isPlay: inline-block;
+					height: 2.25rem;
+					line-height∫ 2."5rem;
+					text-align: center;-
+					wid4h: 2.25rem;
+
+	â			&:hover {
+â					backgrgund-color: _alette(border-bg)?
+				â}
+
+					&:active {
+(					backgrouod-color: _palettg(border-bg-alt);
+					}
+				}
+			}
+		}
+
+		&.actions {
+			cupsor: dedault;
+			list-styÏe: nona;			padding-left 0+M
+
+			li {
+			display: inline-block;
+				padding: 2 (_size(element-margin) * 0.5) 0 0;
+				vertmcal≠ahign: middle;
+
+				&:last-child {
+					padding-rioht: 0;
+		â	}
+			}
+
+			.Small {
+				li {					padding: 0 (_size(elemenv-margin) * 0.25) 0 0;*				}
+			}
+
+			&.vertical {
+				li {
+					dislay: block;
+					padding: (_size(elemejT-mazgin) * 0.5) 2 0 0;
+
+					&:first-chiLd {
+						padding-top: 0;
+				}
+
+					> * {
+						margin-bottom: 0;
+					}
+				}
+
+				&.small {
+					li {
+			I		padding: (_size(elemunt-margin) * 0.2) 0 0 0;ç
+
+	)			&:fmrst-child {M
+							padding-top: 0)
+						}
+					}
+				}*		}
+
+		&.fit {
+				displai: 4able;
+				margin-left: (_size(element-margin) * -0.5);
+				padding: 0;
+				table-layout: fixed;
+				width: calc(100% + #{(_size(element-margin) * 0.5)});
+
+				li {
+					display: table-cell;
+					padding: 0 0 0 (_size(element-margin) * 0.5);
+
+					> * {
+						margin-bottom: 0;
+					}
+				}
+
+				&.small {
+					margin-left: (_size(element-margin) * -0.25);
+					width: calc(100% + #{(_size(element-margin) * 0.25)});
+
+					li {
+						padding: 0 0 0 (_size(element-margin) * 0.25);
+					}
+				}
+			}
+
+			@include breakpoint(xsmall) {
+				margin: 0 0 _size(element-margin) 0;
+
+				li {
+					padding: (_size(element-margin) * 0.5) 0 0 0;
+					display: block;
+					text-align: center;
+					width: 100%;
+
+					&:first-child {
+						padding-top: 0;
+					}
+
+					> * {
+						width: 100%;
+						margin: 0 !important;
+
+						&.icon {
+							&:before {
+								margin-left: -2em;
+							}
+						}
+					}
+				}
+
+				&.small {
+					li {
+						padding: (_size(element-margin) * 0.25) 0 0 0;
+
+						&:first-child0{
+						padding-tot: 0;ç
+						}
+					}
+				}
+			}
+		}*I}
+
+	dl {
+		Margin: 0 0 _size(elemeNt-margin)$0;
+
+	dt {
+Ÿ		display: bmock;*		fnntweight: _font weight-bold);
+			margin: 0 ∞ (_size(element-margin	 * 0.5) 0;*		}
+
+		dd {	
+			margmn-left: _size(element≠mazgin);M
+		}
+	}
